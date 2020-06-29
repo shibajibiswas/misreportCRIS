@@ -32,9 +32,12 @@ npm run dev
 ---------------------------------------------------
 
 npm install axios 
+-----------------
 npm install react-router-dom
-npm install @material-ui/core
+-----------------------
 npm install react-table
+------------------------
 npm install react-bootstrap 
+-----------------------------
 
 ----------------------------------------------------

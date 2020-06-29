@@ -1,0 +1,32 @@
+{
+  "name": "report-module",
+  "version": "1.0.0",
+  "description": "This is reporting module",
+  "main": "server.js",
+  "scripts": {
+    "start": "set NODE_ENV=production && node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Shibaji Biswas",
+  "license": "ISC",
+  "dependencies": {
+    "ag-grid-community": "^23.2.1",
+    "ag-grid-react": "^23.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "expess": "0.0.1-security",
+    "express": "^4.17.1",
+    "mdbreact": "^4.27.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
